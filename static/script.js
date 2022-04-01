@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    console.log('Ready')
+    console.log('Listo')
 
     let date_time = new Date()
     let current_date = date_time.toLocaleDateString()
 
-    $('#date').text("Date : " + current_date)
+    $('#date').text("Fecha : " + current_date)
 
     $('#button').click(function(){
 

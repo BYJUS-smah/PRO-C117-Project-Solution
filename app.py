@@ -17,7 +17,7 @@ def predict():
     if not review:
 
         response = jsonify({'status' : 'Error' , 
-                            'message' : 'Empty Review'})
+                            'message' : 'Reseña vacía'})
 
     else:
 
